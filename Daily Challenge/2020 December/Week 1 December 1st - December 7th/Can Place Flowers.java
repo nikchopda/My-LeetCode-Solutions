@@ -1,6 +1,6 @@
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
-         if (flowerbed == null || flowerbed.length == 0) {
+        if (flowerbed == null || flowerbed.length == 0) {
             return false;
         }
         
@@ -21,6 +21,5 @@ class Solution {
         }
         
         return rst >= n;
-        
     }
 }
